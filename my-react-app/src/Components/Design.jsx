@@ -2,6 +2,7 @@ import React from "react";
 import "./Design.css";
 import { LuCalendarMinus2 } from "react-icons/lu";
 import { MdOutlineNotifications } from "react-icons/md";
+import { TbUsersGroup } from "react-icons/tb";
 
 const Design = () => {
     return (
@@ -16,9 +17,25 @@ const Design = () => {
                     <div className="top-icons2"><MdOutlineNotifications /></div>
                 </div>
                 <div className="progress">
-                    <div className="on-progress">On Progress<a className="num">(12)</a></div>
+                    <div className="on-progress">On Progress<a className="num"> (12)</a></div>
                     <div className="view">View More</div>
                 </div>
+                <div className="design">
+                    <div className="design-box">
+                        <div className="design-ui">
+                            <div className="design-title">Design UI ToDo APP
+                                <div className="fri">Friday, 08 July 2022</div>
+                            </div>
+                            <div className="user-icon"><TbUsersGroup /></div>
+                        </div>
+                        <div className="line"></div>
+                        <div className="description">Description :</div>
+                        <div className="design-description">Design a simple home pages with clean layout and color based on the guidelines..</div>
+                        
+                    </div>
+                    <div className="wee-box"></div>
+                </div>
+                
             </div>
             <div className="second-box">
                 ggg
