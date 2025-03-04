@@ -31,11 +31,32 @@ const Design = () => {
                         <div className="line"></div>
                         <div className="description">Description :</div>
                         <div className="design-description">Design a simple home pages with clean layout and color based on the guidelines..</div>
-                        
+                        <div className="team">
+                            <div className="teams">Teams :</div>
+                            <div className="progress">Progress :</div>
+                        </div>
+                        <div className="team-icons">
+                            <div className="teams-icons"><a className="img1">jhjj</a></div>
+                            <div className="progress-bar"><div className="progress-circle"></div></div>
+                            <div className="number">78%</div>
+                        </div>
+                        <div className="bottom-line"></div> 
                     </div>
-                    <div className="wee-box"></div>
+                    <div className="wee-box">
+                        <div className="wee">Wee</div>
+                        <div className="friday">Friday</div>
+                        <div className="line1"></div>
+                        <div className="descr">Descr</div>
+                        <div className="meet"> Meet pager</div>
+                        <div className="teams1">Team</div>
+                        <div className="bottom-line2"></div>
+                    </div>
                 </div>
-                
+                <div className="complete">
+                    <div className="completed">Completed</div>
+                    <div className="view">View More</div>
+                </div>
+                <div className="meeting-box"></div>
             </div>
             <div className="second-box">
                 ggg
