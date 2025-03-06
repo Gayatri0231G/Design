@@ -5,6 +5,8 @@ import { MdOutlineNotifications } from "react-icons/md";
 import { TbUsersGroup } from "react-icons/tb";
 import { AiOutlineCheck } from "react-icons/ai";
 import { HiOutlineUser } from "react-icons/hi";
+import { MdOutlineCalendarMonth } from "react-icons/md"
+import { IoMdTime } from "react-icons/io";
 
 const Design = () => {
     return (
@@ -141,7 +143,23 @@ const Design = () => {
                     <div className="descrption-box">
                         <div className="add-desc">Add Descrptions..</div>
                     </div>
-                    <div className="date"></div>
+                    <div className="date">Date<a className="time">Time</a></div>
+                    <div className="date-time">
+                        <div className="dd-box">
+                            <div className="dd-icon"><MdOutlineCalendarMonth /><a className="dd">dd/mm/yy</a></div>
+                        </div>
+                        <div className="hh-box">
+                            <div className="hh-icon"><IoMdTime />< a className="hh">hh:mm</a></div>
+                        </div>
+                    </div>
+                    <div className="cancel-create">
+                        <div className="cancel-box">
+                            <div className="cancel">Cancel</div>
+                        </div>
+                        <div className="createe-box">
+                            <div className="createe">Create</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
