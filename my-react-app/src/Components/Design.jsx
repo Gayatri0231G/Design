@@ -4,6 +4,7 @@ import { LuCalendarMinus2 } from "react-icons/lu";
 import { MdOutlineNotifications } from "react-icons/md";
 import { TbUsersGroup } from "react-icons/tb";
 import { AiOutlineCheck } from "react-icons/ai";
+import { HiOutlineUser } from "react-icons/hi";
 
 const Design = () => {
     return (
@@ -127,11 +128,21 @@ const Design = () => {
                     <div className="add-box">
                         <div className="add-title">Add Task Name..</div>
                     </div>
+                    <div className="category">Category</div>
+                    <div className="category-box">
+                        <div className="personal-box">
+                            <div className="person-icon"><HiOutlineUser /><a className="person-title">Personal</a></div>
+                        </div>
+                        <div className="teams-box">
+                            <div className="teams-icon"><TbUsersGroup /><a className="teams">Teams</a></div>
+                        </div>
+                    </div>
+                    <div className="descrptionn">Descrption</div>
+                    <div className="descrption-box">
+                        <div className="add-desc">Add Descrptions..</div>
+                    </div>
+                    <div className="date"></div>
                 </div>
-                
-
-
-                
             </div>
         </div>
     );

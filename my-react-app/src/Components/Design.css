@@ -519,7 +519,7 @@
     height: 700px;
     background-color: #e9e6e6;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
@@ -725,7 +725,7 @@
     margin-left: 20px;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .add-box{
@@ -734,14 +734,105 @@
     height: 35px;
     margin-top: 5px;
     margin-left: 20px;
-    background-color: #f8f8f8;
-    border-radius: 10px;
+    background-color: #ececec;
+    border-radius: 5px;
 }
 
 .add-title{
     font-family: sans-serif;
     font-size: 12px;
     color: #8d8c8c;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.category{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.category-box{
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+}
+
+.personal-box{
+    width: 100%;
+    max-width: 143px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.person-icon{
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.person-title{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.teams-box{
+    width: 100%;
+    max-width: 143px;
+    height: 30px;
+    margin-left: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #f1f0f0; 
+}
+
+.teams-icon{
+    font-size: 15px;
+    padding-top: 6px;
+    margin-left: 20px;
+}
+
+.teams{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #8d8c8c; 
+}
+
+.descrptionn{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.descrption-box{
+    width: 100%;
+    max-width: 300px;
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.add-desc{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #757575;
     padding-top: 10px;
     margin-left: 15px;
 }
